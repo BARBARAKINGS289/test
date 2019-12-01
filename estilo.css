@@ -1,60 +1,74 @@
 body {
     margin: 0;
     border border-style: solid;
-    
-    }
-    main{
-    display: block;
-    }
 
-.contacto {
-border-style: solid;
-border-color: blue;
 }
-.primer, .segundo , .tercero ,.cuarto, .quinto {
+main {
+    display: grid;
+
+}
+.contacto {
+    border-style: solid;
+    border-color: blue;
+}
+
+.primer,
+.segundo,
+.tercero,
+.cuarto,
+.quinto {
     display: grid;
     border-style: solid;
     border-color: turquoise;
     border-width: 2px
-   
 }
+
 .contenido-principal {
     border-style: solid;
     border-color: lawngreen;
     border-width: 2px
-
 }
-ul{
+
+ul {
     list-style: none;
 }
-li{
+
+li {
     display: inline-block;
 }
+
 .vacio {
     border-style: solid;
     border-color: crimson;
     border-width: 2px
-
 }
+
 .titulo {
     border-style: solid;
     border-color: darkblue;
     border-width: 1px
-
 }
+
 .contorno {
     border-style: solid;
     border-color: deeppink;
     border-width: 3px
+}
+
+.contenedor-cajas {
+    display: grid;
+    grid-template-columns: 33% 33%;
 
 }
-.contenedor-cajas{
-display: grid;
-grid-template-columns: 33% 33%;
 
-}
-.caja2{
+.caja2 {
 
     display: grid;
-grid-template-columns: 33% 33%;
+    grid-template-columns: 33% 33%;
+}
+.option {
+    border-style: solid;
+    border-color: red;
+    border-width: 3px
+
 }
