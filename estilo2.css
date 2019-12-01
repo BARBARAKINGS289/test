@@ -77,7 +77,7 @@ body {
 .primer, .segun , .tercer , .cuarto , .quinto , .sexto{
     font-family:Calibri;
 }
-kbd{
+.ingreso{
+    width: 738px; height: 115px;
     font-family:Calibri;
-    text-decoration-color: rgb(160, 161, 161);
 }
